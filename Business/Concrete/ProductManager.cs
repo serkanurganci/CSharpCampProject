@@ -21,7 +21,7 @@ namespace Business.Concrete
         public IDataResult<List<Product>> GetAll()
         {
             //Business code
-            if (DateTime.Now.Hour == 3)
+            if (DateTime.Now.Hour == 14)
             {
                 return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
             }
@@ -51,7 +51,7 @@ namespace Business.Concrete
         public IResult Add(Product product)
         {
             //business code
-            if (product.ProductName.Length > 2)
+            if (product.ProductName.Length < 2)
             {
                 return new ErrorResult(Messages.ProductNameInvalid);
             }
