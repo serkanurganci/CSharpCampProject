@@ -6,8 +6,11 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.CrossCuttingConserns.Validation;
 using Core.Utilities.Results;
 using Entities.DTOs;
+using FluentValidation;
 
 namespace Business.Concrete
 {
@@ -51,10 +54,9 @@ namespace Business.Concrete
         public IResult Add(Product product)
         {
             //business code
-            if (product.ProductName.Length < 2)
-            {
-                return new ErrorResult(Messages.ProductNameInvalid);
-            }
+            
+
+            ValidationTool.Validate(new ProductValidatior(), product);
             _productDal.Add(product);
             return new SuccessResult(Messages.ProductAdded);
         }

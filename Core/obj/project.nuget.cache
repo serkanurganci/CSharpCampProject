@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "HnUv/8d4lHNK13HzrccB+DtfYeKwC4Whc8bpbXwwkp294jY7+XqlBeFk2ko0dQXOpCXI+GjYo4DB+ooC2H0upQ==",
+  "dgSpecHash": "xwNnmSiGaU9YUi7AbDMKI8lftSGw2sQD11k+Kq84qcGZ+dsj5Z2Q4eQhkXWOMjFo2nYh6j0F9mJcIXhYyZALpw==",
   "success": true,
   "projectFilePath": "C:\\Users\\serca\\source\\repos\\FinalProject\\Core\\Core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\serca\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
     "C:\\Users\\serca\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\serca\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\serca\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
