@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "o4laPTHOxHtTv8lbTUIMibW2RABbK4siC3jx8ctO0lwt+0Kg4uHs4arvGuLagmtlpYFiEqRUIY7PXPJwdArW4A==",
+  "dgSpecHash": "R1RGAxry6qiFqeKIqUf14KCKGYCbPJeXFgIqPL7NtMwby5HbATlJi/N8RvAAU9DB0nUOLe8fn7lsJIN2nII68w==",
   "success": true,
   "projectFilePath": "C:\\Users\\serca\\source\\repos\\FinalProject\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\serca\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
+    "C:\\Users\\serca\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "C:\\Users\\serca\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "C:\\Users\\serca\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\serca\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",

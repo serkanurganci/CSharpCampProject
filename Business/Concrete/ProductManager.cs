@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Text;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConserns.Validation;
 using Core.Utilities.Results;
 using Entities.DTOs;
@@ -50,7 +51,7 @@ namespace Business.Concrete
             }
             return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails());
         }
-
+        [ValidationAspect(typeof(ProductValidatior))]
         public IResult Add(Product product)
         {
             //business code
