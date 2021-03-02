@@ -5,7 +5,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace Core.Utilities.Security.Encryption
 {
-    class SecurityKeyHelper
+    public class SecurityKeyHelper
     {
         public static SecurityKey CreateSecurityKey(string securityKey)
         {

@@ -5,6 +5,7 @@ using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Business.BusinessAspects.Autofac;
 using Business.CCS;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
@@ -58,6 +59,7 @@ namespace Business.Concrete
             }
             return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails());
         }
+        [SecuredOperation("product.add,admin")]
         [ValidationAspect(typeof(ProductValidatior))]
         public IResult Add(Product product)
         {
